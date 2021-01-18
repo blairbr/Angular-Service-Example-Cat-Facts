@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cat-container {
+    background-color: whitesmoke;
+    border-radius: 5%;
+    padding: 5px 15px 10px 15px;
+    margin-top: 5%;
+}

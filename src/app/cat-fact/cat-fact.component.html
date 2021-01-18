@@ -1,0 +1,8 @@
+<div class="main-container">
+  <div class="cat-container">
+    <h1>Cat Facts</h1>
+    <p *ngFor="let catFact of service.catFacts; let i = index">
+      {{ i + 1 }}. {{ catFact.text }}
+    </p>
+  </div>
+</div>
